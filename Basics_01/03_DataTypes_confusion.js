@@ -35,10 +35,12 @@ console.log(1+2+3); // answer >> 6
 // if the fisrt one is the number and the 3rd one is the string then check the result"
 console.log(1 + 2 + "3"); //answer >> 33
 
+// ********************** prefix and the postfix arithmetic operator **********************
 
+let a = 4
+const y = a++;
+console.log(`the value of a: ${a} and the value of y: ${y}`);
 
-
-
-
-
-
+let b = 5;
+const z = ++b;
+console.log(`the value of b: ${b} and the value of z: ${z}`);
