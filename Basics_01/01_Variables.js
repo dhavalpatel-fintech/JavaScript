@@ -53,6 +53,7 @@ accountCity = "Mumbai";
 
 console.log([accountId, accountEmail, accountPassword, accountCity]);
 
+// to make a table of the varibales in the above examples
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
 
 // var is not used that frequently as compared to let and the const, try to use the let as much as possible.
