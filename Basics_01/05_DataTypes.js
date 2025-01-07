@@ -54,3 +54,17 @@ greet();
 
 console.log(typeof greet);
 
+
+// ############################################### Stack and heap memory ##############################################
+
+// Stack
+
+let myName = "Dhaval Patel";
+
+let anotherName = myName;
+anotherName = "Patel Dhaval";
+
+console.log(myName);
+console.log(anotherName);
+
+
