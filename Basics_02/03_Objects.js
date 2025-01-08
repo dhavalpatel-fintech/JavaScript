@@ -40,7 +40,7 @@ console.log(myObj);
 myObj.greetings = function(){
     console.log("Hello Users, how are you??")
 }
-console.log(myObj[greetings()]);
+console.log(myObj.greetings());
 
 // functiom-02
 myObj.greetingsTwo = function(){
@@ -48,3 +48,19 @@ myObj.greetingsTwo = function(){
 }
 console.log(myObj.greetingsTwo());
 
+// ########################## object and the function inside it ########################
+
+const user = {
+    name : "Patel Dhaval kalpeshkumar",
+    age : 25,
+    location : "Bnaglore",
+    isDisciplined : true,
+    howTown : "Ahmedabad",
+    CurrentTown : ["Mumbai", "Banglore", "Gurugram"],
+
+    greetings01 : function(){
+        console.log(`Hello Everyone, this is ${this.name} and my age is ${this.age}.`)
+    }
+}
+console.log(user);
+console.log(user.greetings01());
