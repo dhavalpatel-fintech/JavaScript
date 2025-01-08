@@ -66,8 +66,8 @@ console.log(tinderuser);
 console.log(Object.keys(tinderuser));
 console.log(Object.values(tinderuser));
 
-console.log(object.entries(tinderuser));
+console.log(Object.entries(tinderuser));
 
 for(const [key,value] of Object.entries(tinderuser)){
-    console.log(`key : ${key} and value : ${value}`);
+    console.log(`key : ${key}, value : ${value}`);
 }
