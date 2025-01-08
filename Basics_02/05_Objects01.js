@@ -13,3 +13,19 @@ console.log(Instructor);
 // what is an API??
 // Jab bhi aap apna kam kisi or ke sar pe dalte ho that is called an API.
 // Just like in a restaurant the menu card is the API menu and the product or an item you re getting is called the API.
+
+// API is in JSON fromat:
+
+{
+    name : "Dhaval patel",
+    course : "JavaScript in hindi",
+    price : "free"
+}
+
+// API in the array fromat
+
+[
+    {},
+    {},
+    {},
+]
