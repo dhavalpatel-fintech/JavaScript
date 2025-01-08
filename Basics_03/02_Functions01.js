@@ -29,3 +29,17 @@ if(true){
 
 // hoisting the function in the java script 
 
+// example-01 of the hoisting the function's value 
+console.log("The value of add01 is:", add01(6))
+function add01(num){
+    return num+1;
+}
+
+
+// Example-02 of the another method to write the function is:
+
+// cannot hoist the function without the console.log();
+add02(5);
+let add02= function sum(num){
+    return num+2;
+}
