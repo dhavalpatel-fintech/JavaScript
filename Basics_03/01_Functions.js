@@ -48,3 +48,30 @@ function loggedin(username = "DhavalPatel"){
 }
 // console.log(loggedin("Dhaval Patel"));
 console.log(loggedin(""));
+
+
+// functions with the multiple parameters 
+
+function calculateItemsPrice(val1, val2, ...num1){
+    return num1
+}
+console.log("You will get the array of the items prices:")
+console.log(calculateItemsPrice(200,400,500, 2000, 30000, 4000));
+
+// handling the objects with the functions:
+
+const obj ={
+    username : "Dhaval Patel",
+    price : "999/-",
+}
+
+function handleObject(myObj){
+    console.log(`Username is ${myObj.username} and the prices are: ${myObj.price}`);
+
+}
+handleObject(obj);
+
+// function with the array
+
+
+
