@@ -73,5 +73,10 @@ handleObject(obj);
 
 // function with the array
 
+const newArr = [200, 300, 400, 500];
 
+function returnArrayValue(getArray){
+    return getArray[2];
+}
+console.log(returnArrayValue(newArr));
 
