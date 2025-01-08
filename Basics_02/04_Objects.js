@@ -40,3 +40,34 @@ console.log(obj4);
 const obj5 = {...obj1, ...obj2, ...obj3, ...obj4};
 console.log(obj5);
 
+// ######################## Object inside the Array #########################
+
+const user01 = [
+    {
+        user : 1,
+        email : "dhaval@google.com"
+    }, 
+    {
+        user : 2,
+        email : "patel@microsoft.com"
+    },
+    {
+        user : 3,
+        email : "dp@meta.com"
+    }
+]
+console.log(user01[1]);
+
+
+// calling the tinder users key and value in a different rows
+
+console.log(tinderuser);
+
+console.log(Object.keys(tinderuser));
+console.log(Object.values(tinderuser));
+
+console.log(object.entries(tinderuser));
+
+for(const [key,value] of Object.entries(tinderuser)){
+    console.log(`key : ${key} and value : ${value}`);
+}
