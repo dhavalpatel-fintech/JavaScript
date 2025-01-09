@@ -33,7 +33,7 @@ chai();
 const name = () =>{
     let name_01 = "patel";
     console.log(name_01);
-    // console.log(this.name_01) >>>> "this." will not work inside the arrow function in the javascript
+    console.log(this.name_01); // >>>> "this." will not work inside the arrow function in the javascript
 }
 name();
 
@@ -58,4 +58,5 @@ console.log(addtwo(6,2));
 
 // implicit and using the object inside the arrow function
 
-
+const myobj = (num1, num2) => ({username : "Dhaval Patel"});
+console.log(myobj(6,2));
