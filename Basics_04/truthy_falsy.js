@@ -40,6 +40,24 @@ if (usermail01) {
 // 6. function(){}
 
 
-// lets make the array and the object length to be counted 
+// lets make the array and the object length to be counted
+
+
+// Array
+let myArr =[];
+if (myArr.length === 0) {
+    console.log("Array is empty");
+}
+
+// Object
+
+const myobj = {};
+if (Object.keys(myobj).length === 0) {
+    console.log("Object is empty");
+}
+
+console.log(typeof 0);
+
+
 
 
