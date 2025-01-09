@@ -26,5 +26,19 @@ let total2 = addNum(10,2);
 
 // 2. CALL Stack
 
+// for the belwow function:
+function one() {
+    console.log("one")
+}
+function two(){
+    console.log("two")
+}
+function three(){
+    console.log("three")
+};
+one();
+two();
+three();
+
 
 
