@@ -47,5 +47,9 @@ const sde01 = [
     {
         languageName : "html",
         languageFileName : "html",
-    },
+    }
 ]
+sde01.forEach((item) =>{
+    // console.log(item.languageFileName);
+    console.log(item.languageName);
+})
