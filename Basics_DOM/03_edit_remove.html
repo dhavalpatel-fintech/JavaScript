@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Learning!!</title>
+</head>
+<body>
+
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+
+    <script>
+        // this is not the optimised way to do it:
+        // here youre traversing the whole loop
+
+        function addLanguage(langName) {
+            const li = document.createElement('li');
+            li.innerHTML = `${langName}`;
+            document.querySelector('.language').
+            appendChild(li);
+        }
+        addLanguage("Python");
+        addLanguage("Type Script");
+
+        // the below is the optimised way to do it:
+        // here no traversing and good for the big data
+
+        function addOptiLanguage(langName) {
+            const li = document.createElement('li');
+            li.appendChild(document.createTextNode(langName));
+            document.querySelector('.language').appendChild(li);
+        }
+        addOptiLanguage("Python");
+        addOptiLanguage("AI/ML");
+
+
+        // edit
+        // again innerHTML not an optimised way:
+        const secondLanguage = document.querySelector("li:nth-child(3)");
+        // secondLanguage.innerHTML = "Mojo";
+
+        // now an optimised way to do is:
+        // inside the "li" element:
+        const newLi =  document.createElement('li');
+        newLi.textContent = "Ruby";
+        secondLanguage.replaceWith(newLi);
+
+
+        // 1. edit >> now replace the java script with the react and next js
+        // const firstLang = document.querySelector('li:nth-child(1)');
+        // const newList = document.createElement('li');
+        // newList.textContent = "React & next.js";
+        // firstLang.replaceWith(newList);
+
+        // 2. method
+        const firstLang = document.querySelector("li:first-child");
+        firstLang.outerHTML = '<li>Reac & node js</li>'
+
+        // remove the last element
+        const lastLang = document.querySelector("li:last-child");
+        lastLang.remove();
+
+    </script>
+</body>
+</html>
