@@ -24,7 +24,7 @@ Array.prototype.heyHitesh = function(){
     console.log(`Hitesh says hello`);
 }
 
-// heroPower.hitesh()
+// heroPower.hitesh() >> dont have the access 
 // myHeros.hitesh()
 // myHeros.heyHitesh()
 // heroPower.heyHitesh()
