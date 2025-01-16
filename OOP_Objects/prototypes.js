@@ -24,10 +24,10 @@ Array.prototype.heyHitesh = function(){
     console.log(`Hitesh says hello`);
 }
 
-// heroPower.hitesh() >> dont have the access 
+// heroPower.hitesh()
 // myHeros.hitesh()
 // myHeros.heyHitesh()
-// heroPower.heyHitesh()
+// heroPower.heyHitesh()  >> dont have the access 
 
 // inheritance
 
