@@ -13,3 +13,4 @@ function createUser(username, emailId, password) {
 }
 const create = new createUser('dhaval patel', 'dhaval@google.com', "123456789@");
 console.log(create);
+
