@@ -2,7 +2,7 @@
 
 // function >>> object.defineproperty() 
 
-function user(){
+function User(email, password){
     this._email = email;
     this._password= password;
     
@@ -27,7 +27,10 @@ function user(){
 }
 
 const chai = new User("dee@google.com", "1234@dee.com")
-console.log(chai);
+console.log(`The email is : ${chai.email}`);
+console.log(`The password is : ${chai.password}`);
+
+
 
 
 
