@@ -14,7 +14,7 @@ console.log(tinderuser);
 const user = {
     name : "Dhaval Patel",
     "full name" : {
-        fisrt : {
+        first : {
             firtsName : "DHAVAL",
             last:{
                 lastName : "PATEL",
@@ -22,7 +22,7 @@ const user = {
         }
     }
 }
-console.log(user["full name"].fisrt.last);
+console.log(user["full name"].first.last);
 
 
 // ################################## the new things in the objects ####################################
