@@ -20,7 +20,7 @@ if (score>100) {
 }
 
 
-// implicit scope
+// implicit scope >> not a good way to write a code.
 
 let balance = 1000;
 if (balance>777) console.log("you are in the top 30%"),
