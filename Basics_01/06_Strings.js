@@ -1,4 +1,4 @@
-// striung in the java script 
+// string in the java script 
 
 let name = "Dhaval Patel";
 let repocount = 50;
