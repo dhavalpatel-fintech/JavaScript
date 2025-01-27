@@ -68,3 +68,7 @@ console.log(myName);
 console.log(anotherName);
 
 
+// Heap 
+// which is primarily used for the the non-primitive data types in the java script you can use the HEAP with the Object, Array and Functions
+
+
