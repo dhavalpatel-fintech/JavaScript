@@ -1,6 +1,7 @@
 // There are two types of the objects:
 /*
 1. Object constructor >>> object.create >>> will study it later
+Object constructor >> const myObj =  new Object();
 2. object literals >>> let myuObj = {}
 */
 
