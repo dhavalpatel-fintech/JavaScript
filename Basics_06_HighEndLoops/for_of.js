@@ -2,7 +2,7 @@
 
 // there are different types of high end loops in the java script :
 // 1. for of >> used in 1. Array and 2. Map
-// 2. for each 
+// 2. for each >> 1. normal function , 2. Array, 3. Object
 // 3. for in >> used in 1. Object 
 // loop in the java script
 
